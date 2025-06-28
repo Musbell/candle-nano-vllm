@@ -1,0 +1,11 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Dependencies are inherited from the workspace
+anyhow = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+candle-transformers = { workspace = true }

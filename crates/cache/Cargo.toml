@@ -1,0 +1,11 @@
+[package]
+name = "cache"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { path = "../common" }
+anyhow = { workspace = true }
+candle-core = { workspace = true }
+candle-paged-attention = { workspace = true }
+xxhash-rust = { workspace = true }
