@@ -10,10 +10,13 @@ members = [
     "crates/common",
     "crates/model",
     "crates/cache",
-    "crates/scheduler",
+    "crates/scheduler", "crates/layers",
 ]
 
 [workspace.dependencies]
+accelerate-src = { version = "0.3.2" }
+metal = { version = "0.32.0", features = ["mps"]}
+
 # Core ML Framework & Kernels
 candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.9.1" }
 candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.9.1" }
@@ -34,3 +37,6 @@ thiserror = "2.0.12"
 
 # Async & Concurrency
 tokio = { version = "1", features = ["full"] }
+
+
+
