@@ -1,7 +1,8 @@
 /// Utility module for the candle-nano-vllm project
 ///
 /// This crate provides various utility functions and data structures
-/// used throughout the project, including context management for model execution.
+/// used throughout the project, including context management for model execution
+/// and weight loading from safetensors files.
 
 mod context;
 mod loader;
@@ -11,6 +12,12 @@ mod loader;
 /// These exports provide access to the Context struct and related functions
 /// for managing the global execution context in the model.
 pub use context::{Context, get_context, set_context};
+
+/// Re-exports from the loader module
+///
+/// These exports provide functionality for loading weights from safetensors files
+/// into candle-based models.
+pub use loader::{SafeTensorLoadable, PackedModulesMapping, load_model};
 
 /// Simple utility function that adds two numbers
 ///

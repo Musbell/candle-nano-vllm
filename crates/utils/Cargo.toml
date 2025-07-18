@@ -6,3 +6,6 @@ edition = "2024"
 [dependencies]
 candle-nn = {workspace = true,  optional = true }
 candle-core = {workspace = true}
+safetensors = {workspace = true}
+glob = "0.3.1"
+anyhow = {workspace = true}
