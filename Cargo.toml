@@ -10,7 +10,7 @@ members = [
     "crates/common",
     "crates/model",
     "crates/cache",
-    "crates/scheduler", "crates/layers",
+    "crates/scheduler", "crates/layers", "crates/utils",
 ]
 
 [workspace.dependencies]
@@ -22,6 +22,7 @@ candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.
 candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.9.1" }
 candle-transformers = "0.9.1"
 candle-paged-attention = { git = "https://github.com/huggingface/candle-paged-attention" }
+safetensors = "0.6.0"
 
 # Hugging Face Ecosystem
 hf-hub = "0.4.3"

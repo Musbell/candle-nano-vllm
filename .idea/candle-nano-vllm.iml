@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/crates/layers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/crates/utils/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/crates/cache/target" />
       <excludeFolder url="file://$MODULE_DIR$/crates/common/target" />
       <excludeFolder url="file://$MODULE_DIR$/crates/model/target" />

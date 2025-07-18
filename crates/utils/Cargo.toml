@@ -1,0 +1,8 @@
+[package]
+name = "utils"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+candle-nn = {workspace = true,  optional = true }
+candle-core = {workspace = true}
